@@ -7,7 +7,7 @@ Le jeu opposera deux personnages. Le joueur choisit un personnage (parmi Guerrie
 
 ---
 
-**Les Personnages**
+## Les Personnages
 Vous devez créer une classe parente Personnage, et trois classes filles qui en héritent.
 
 **Classe Personnage (classe parente)**
@@ -21,28 +21,29 @@ recevoirDegats(int $degats)
 afficherEtat()
 ---
 
-**Les Classes Filles**
+## Les Classes Filles
 Chaque classe hérite de Personnage et peut redéfinir ou compléter certaines méthodes.
 
-**Classe Guerrier**
+### Classe Guerrier
 Valeurs par défaut :
-vie : 120
-force : 15
-Particularité : dégâts constants, bonne résistance.
-**Classe Voleur**
-Valeurs par défaut :
-vie : 100
-force : 12
-Particularité : a une chance (30%) d’esquiver une attaque (aucun dégât subi).
+* vie : 120
+* force : 15
+* Particularité : dégâts constants, bonne résistance.
 
-**Classe Magicien**
+### Classe Voleur
 Valeurs par défaut :
-vie : 90
-force : 8
-Particularité : a une chance (50%) de lancer un sort spécial qui double les dégâts infligés.
+* vie : 100
+* force : 12
+* Particularité : a une chance (30%) d’esquiver une attaque (aucun dégât subi).
+
+### Classe Magicien
+Valeurs par défaut :
+* vie : 90
+* force : 8
+* Particularité : a une chance (50%) de lancer un sort spécial qui double les dégâts infligés.
 ---
 
-**Déroulement du combat**
+## Déroulement du combat
 1. Le joueur choisit un personnage parmi Guerrier, Voleur ou Magicien (en dur dans le code pour simplifier).
 2. L’adversaire est généré automatiquement avec une autre classe.
 3. À chaque tour :
