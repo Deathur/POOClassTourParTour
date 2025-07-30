@@ -1,7 +1,7 @@
 # POOClassTourParTour
 
 **Mini Jeu de Combat Tour par Tour en PHP**
-Vous allez créer un petit jeu de combat au tour par tour en PHP, en utilisant la programmation orientée objet.
+Vous allez créer un **petit jeu de combat au tour par tour** en **PHP**, en utilisant la **programmation orientée objet**.
 
 Le jeu opposera deux personnages. Le joueur choisit un personnage (parmi Guerrier, Voleur ou Magicien), et affronte un adversaire choisi automatiquement. Le combat se déroule tour par tour, jusqu'à ce qu'un des deux personnages perde tous ses points de vie.
 
@@ -10,7 +10,7 @@ Le jeu opposera deux personnages. Le joueur choisit un personnage (parmi Guerrie
 ## Les Personnages
 Vous devez créer une classe parente Personnage, et trois classes filles qui en héritent.
 
-**Classe Personnage (classe parente)**
+## Classe Personnage (classe parente)
 Propriétés :
 * Nom
 * Vie
