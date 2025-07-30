@@ -21,6 +21,7 @@ Propriétés :
     * attaquer(Personnage $adversaire)
     * recevoirDegats(int $degats)
     * afficherEtat()
+
 ---
 
 ## Les Classes Filles
@@ -47,6 +48,7 @@ Valeurs par défaut :
 * Vie : 90
 * Force : 8
 * Particularité : a une chance (50%) de lancer un sort spécial qui double les dégâts infligés.
+
 ---
 
 ## Déroulement du combat
