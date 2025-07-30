@@ -12,9 +12,9 @@ Vous devez créer une classe parente Personnage, et trois classes filles qui en 
 
 **Classe Personnage (classe parente)**
 Propriétés :
-* nom
-* vie
-* force
+* Nom
+* Vie
+* Force
 * Méthodes :
     * attaquer(Personnage $adversaire)
     * recevoirDegats(int $degats)
@@ -26,20 +26,20 @@ Chaque classe hérite de Personnage et peut redéfinir ou compléter certaines m
 
 ### Classe Guerrier
 Valeurs par défaut :
-* vie : 120
-* force : 15
+* Vie : 120
+* Force : 15
 * Particularité : dégâts constants, bonne résistance.
 
 ### Classe Voleur
 Valeurs par défaut :
-* vie : 100
-* force : 12
+* Vie : 100
+* Force : 12
 * Particularité : a une chance (30%) d’esquiver une attaque (aucun dégât subi).
 
 ### Classe Magicien
 Valeurs par défaut :
-* vie : 90
-* force : 8
+* Vie : 90
+* Force : 8
 * Particularité : a une chance (50%) de lancer un sort spécial qui double les dégâts infligés.
 ---
 
