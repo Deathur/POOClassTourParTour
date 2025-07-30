@@ -1,4 +1,4 @@
-# POOClassTourParTour
+# Tour par Tour en POO
 
 **Mini Jeu de Combat Tour par Tour en PHP**
 Vous allez créer un **petit jeu de combat au tour par tour** en **PHP**, en utilisant la **programmation orientée objet**.
