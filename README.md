@@ -12,13 +12,13 @@ Vous devez créer une classe parente Personnage, et trois classes filles qui en 
 
 **Classe Personnage (classe parente)**
 Propriétés :
-nom
-vie
-force
-Méthodes :
-attaquer(Personnage $adversaire)
-recevoirDegats(int $degats)
-afficherEtat()
+* nom
+* vie
+* force
+* Méthodes :
+ * attaquer(Personnage $adversaire)
+ * recevoirDegats(int $degats)
+ * afficherEtat()
 ---
 
 ## Les Classes Filles
