@@ -3,7 +3,7 @@
 **Mini Jeu de Combat Tour par Tour en PHP**
 Vous allez créer un **petit jeu de combat au tour par tour** en **PHP**, en utilisant la **programmation orientée objet**.
 
-Le jeu opposera deux personnages. Le joueur choisit un personnage (parmi Guerrier, Voleur ou Magicien), et affronte un adversaire choisi automatiquement. Le combat se déroule tour par tour, jusqu'à ce qu'un des deux personnages perde tous ses points de vie.
+Le jeu opposera deux personnages. Le joueur choisit un personnage (parmi Guerrier, Voleur ou Magicien), et affronte un adversaire choisi automatiquement. Le combat se déroule **tour par tour**, jusqu'à ce qu'un des deux personnages perde tous ses points de vie.
 
 ---
 
