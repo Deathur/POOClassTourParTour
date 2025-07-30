@@ -16,9 +16,9 @@ Propriétés :
 * vie
 * force
 * Méthodes :
- * attaquer(Personnage $adversaire)
- * recevoirDegats(int $degats)
- * afficherEtat()
+    * attaquer(Personnage $adversaire)
+    * recevoirDegats(int $degats)
+    * afficherEtat()
 ---
 
 ## Les Classes Filles
