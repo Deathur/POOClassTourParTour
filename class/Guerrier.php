@@ -7,6 +7,5 @@ class Guerrier extends Personnage{
         $this->Vie = "120";
         $this->Force = "15";
     }
-
 }
 ?>
