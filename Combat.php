@@ -10,7 +10,7 @@ if(isset($_POST['attack'])){
     $_SESSION['player2'] = serialize($adversaire);
     include 'AffichageStats.php';
     if ($adversaire->Vie <= 0){
-        echo "Le ".$Joueur1->Nom." à gagné<br>";  
+        echo "Le ".$Joueur1->Nom." à gagné<br>";
     }
     if ($Joueur1->Vie <= 0){
         echo "Le ".$adversaire->Nom." à gagné";

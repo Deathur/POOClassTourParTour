@@ -1,28 +1,29 @@
 <?php
 include_once 'Personnage.php';
-class Magicien extends Personnage
+
+class Pistolero extends Personnage
 {
     public function __construct() {
-        $this->Nom = "Magicien";
+        $this->Nom = "Pistolero";
         $this->Vie = "90";
-        $this->Force = "8";
+        $this->Force = "20";
     }
     public function skill(){
-        $randMagicien = rand(1, 100);
-        if ($randMagicien <= 50){
+        $chancePistolero = rand(1, 100);
+        if ($chancePistolero <= 5){
             return true;
         }
-        else {
+        else{
             return false;
         }
     }
     public function attaquer(){
         if ($this->skill()){
-            echo 'Boule de feu';
+            echo 'Loupé';
             echo '<br>';
-            return $this->Force * 2;
+            return 0;
         }
-        else {
+        else{
             echo '<br>';
             return $this->Force;
         }

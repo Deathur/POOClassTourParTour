@@ -1,6 +1,7 @@
 <?php
 
-class Personnage{
+class Personnage
+{
     public $Nom;
     public $Vie;
     public $Force;

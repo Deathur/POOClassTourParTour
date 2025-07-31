@@ -4,7 +4,7 @@ include_once 'class/Personnage.php';
 include_once 'class/Guerrier.php';
 include_once 'class/Voleur.php';
 include_once 'class/Magicien.php';
-
+include_once 'class/Pistolero.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
