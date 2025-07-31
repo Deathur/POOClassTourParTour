@@ -1,10 +1,4 @@
 <?php
-    echo '<h1>Particularité des classes</h1>
-    <p>Guerrier: Aucune</p>
-    <p>Voleur: 30% de chances d\'esquiver</p>
-    <p>Magicien: 50% de doubliuer l\'attaque</p>
-    <p>Pistolero: 10% de chances de louper</p>
-    ';
     $class = ['Guerrier', 'Voleur', 'Magicien', 'Pistolero'];
     
     echo '<form method="POST">';
