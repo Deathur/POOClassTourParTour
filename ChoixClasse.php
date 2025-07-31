@@ -3,7 +3,7 @@
     <p>Guerrier: Aucune</p>
     <p>Voleur: 30% de chances d\'esquiver</p>
     <p>Magicien: 50% de doubliuer l\'attaque</p>
-    <p>Pistolero: 5% de chances de louper</p>
+    <p>Pistolero: 10% de chances de louper</p>
     ';
     $class = ['Guerrier', 'Voleur', 'Magicien', 'Pistolero'];
     

@@ -10,7 +10,7 @@ class Pistolero extends Personnage
     }
     public function skill(){
         $chancePistolero = rand(1, 100);
-        if ($chancePistolero <= 5){
+        if ($chancePistolero <= 10){
             return true;
         }
         else{
