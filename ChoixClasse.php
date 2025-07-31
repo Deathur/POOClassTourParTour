@@ -25,13 +25,14 @@
         $Joueur1 = unserialize($_SESSION['player1']);
         $adversaire = unserialize($_SESSION['player2']);
     }
+    echo '</form>';
     foreach ($class as $key=>$value){
         if (isset($_POST[$value])){
             include 'AffichageStats.php';
         }
     }
+    
     /*
-    echo '</form>';
     if(isset($_POST['Guerrier'])) {
         $_SESSION['player1'] = serialize(new Guerrier());
         $randomAdversaire = rand(1,2);

@@ -14,7 +14,6 @@ if(isset($_POST['attack'])){
     }
     if ($Joueur1->Vie <= 0){
         echo "Le ".$adversaire->Nom." à gagné";
-    }
-            
+    }    
 }
 ?>
