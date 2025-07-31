@@ -19,22 +19,7 @@ include_once 'class/Magicien.php';
         
         <?php
         include_once 'ChoixClasse.php';
-        if (isset($_POST['chooseWarrior']) || isset($_POST['chooseThief']) || isset($_POST['chooseMagician'])){
-            $Joueur1 = unserialize($_SESSION['player1']);
-            foreach ($Joueur1 as $key=>$value){
-                echo '<p class="info">'.$key. ": " .$value.'</p>';
-            }
-            echo '<br>';
-            $adversaire = unserialize($_SESSION['player2']);
-            foreach ($adversaire as $key=>$value){
-                echo '<p class="info">'.$key. ": " .$value.'</p>';
-            }
-            echo '
-            <form method="POST">
-                <input type="submit" name="attack" value = Attaquer ennemi>
-            </form>
-            ';
-        }
+        
         if(isset($_POST['attack'])){
             $Joueur1 = unserialize($_SESSION['player1']);
             $adversaire = unserialize($_SESSION['player2']);
@@ -44,35 +29,22 @@ include_once 'class/Magicien.php';
             $Joueur1->recevoirDegats($degats);
             $_SESSION['player1'] = serialize($Joueur1);
             $_SESSION['player2'] = serialize($adversaire);
-            foreach ($Joueur1 as $key=>$value){
-                echo '<p class="info">'.$key. ": " .$value.'</p>';
-            }
-            echo '<br>';
-            foreach ($adversaire as $key=>$value){
-                echo '<p class="info">'.$key. ": " .$value.'</p>';
-            }
+            include 'AffichageStats.php';
             if ($adversaire->Vie <= 0){
                 echo "Le ".$Joueur1->Nom." à gagné<br>";  
             }
             if ($Joueur1->Vie <= 0){
                 echo "Le ".$adversaire->Nom." à gagné";
             }
-            if ($adversaire->Vie > 0 && $Joueur1->Vie > 0){
-                echo'
-                <form method="POST">
-                    <input type="submit" name="attack" value = Attaquer ennemi>
-                </form>
-                ';
-            }
             
         }
         if (isset($POST_['reset'])){
             header("Location: index.php");
         }
-            ?>
-            <br>
+        echo '<br>
             <form method="POST">
                 <input type="submit" name="reset" value = Reset>
-            </form>
+            </form>'
+            ?>
     </body>
-    </html>
+</html>

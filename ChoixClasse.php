@@ -42,4 +42,9 @@ echo '
                 echo '<br>';
             }
         }
+        $Joueur1 = unserialize($_SESSION['player1']);
+        $adversaire = unserialize($_SESSION['player2']);
+        if (isset($_POST['chooseWarrior']) || isset($_POST['chooseThief']) || isset($_POST['chooseMagician'])){
+            include 'AffichageStats.php';
+        }
 ?>
