@@ -15,11 +15,8 @@ include_once 'class/Magicien.php';
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-             
-        
         <?php
         include_once 'ChoixClasse.php';
-        
         if(isset($_POST['attack'])){
             $Joueur1 = unserialize($_SESSION['player1']);
             $adversaire = unserialize($_SESSION['player2']);
